@@ -1,0 +1,47 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    margin: 200px auto;
+    max-width: 600px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 2px solid red;
+    padding: 20px;
+    input{
+        background-color: lightgrey;
+        border-radius: 10px;
+        height: 40px;
+    }
+    button{
+        padding: 10px;
+        border-radius: 10px;
+        background: linear-gradient(100deg, #ee0979, #ff6a00);
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+    
+    }
+    button:hover{
+        color: black;
+        transform: scale(1.06);
+        transition: .8s;
+    }
+    li{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+    &__cont1{
+        color: red;
+        font-size: 20px;
+    }
+    h2{
+        text-align: center;
+    }
+
+}
